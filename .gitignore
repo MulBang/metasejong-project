@@ -1,0 +1,26 @@
+# Python 가상환경 / 캐시
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# 테스트 캐시
+.pytest_cache/
+
+# Node / 프론트엔드
+node_modules/
+dist/
+build/
+
+# 환경 변수 파일 (DB 비밀번호, API 키 등)
+.env
+*.env
+
+# 압축 파일 (원하시면)
+*.zip
+
+# OS / 에디터 설정 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
